@@ -4,7 +4,8 @@
   "description": "A soundboard application",
   "main": "main.js",
   "scripts": {
-    "start": "chcp 65001 && electron .",
+    "start": "electron .",
+    "start:win": "chcp 65001 && electron .",
     "build": "electron-builder",
     "build:mac": "electron-builder --mac --x64",
     "dist": "electron-builder",
