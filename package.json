@@ -12,7 +12,7 @@
     "pack": "electron-builder --dir",
     "postinstall": "electron-builder install-app-deps",
     "test": "electron .",
-    "test:mac": "node scripts/mac-test.js"
+    "test:mac": "electron scripts/mac-test.js"
   },
   "build": {
     "appId": "com.jacs.soundboard",
